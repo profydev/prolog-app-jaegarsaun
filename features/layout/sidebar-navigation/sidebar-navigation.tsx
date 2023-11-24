@@ -84,7 +84,11 @@ export function SidebarNavigation() {
               text="Support"
               iconSrc="/icons/support.svg"
               isCollapsed={isSidebarCollapsed}
-              onClick={() => window.open("mailto:support@profy.dev")}
+              onClick={() =>
+                window.open(
+                  "mailto:support@prolog-app.com?subject=Support Request:",
+                )
+              }
             />
             <MenuItemButton
               text="Collapse"
